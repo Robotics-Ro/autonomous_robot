@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-02-02" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="주제 모색" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="1" name="개요서 작성" color="#8cb6ce" meeting="false" start="2023-02-02" duration="1" complete="0" thirdDate="2023-02-02" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="필요직업군 크롤링" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="3" name="잡코리아" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="4" name="대주제 로봇" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="9" name="세분화 작업" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="5" name="VPN 설치 및 테스트" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="6" name="데이터 프레임 작성" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="7" name="시각화 자료 작성" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="8" name="사람인" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="11" name="대주제 로봇" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="14" name="세분화작업" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="12" name="데이터프레임 작성" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="13" name="시각화 자료 작성" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="15" name="공공데이터 자료 추출" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="16" name="hwp 데이터 추출법 조사" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="17" name="로봇 부품 및 부분품" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="18" name="서비스로봇" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="19" name="로봇산업 관련 데이터" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="20" name="시각화 데이터 작성" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="21" name="프레젠테이션" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="22" name="스토리라인 구축" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="23" name="PPT 작성" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+        <task id="24" name="대본 작성" meeting="false" start="2023-02-02" duration="1" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
